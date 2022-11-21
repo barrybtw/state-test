@@ -26,7 +26,7 @@ export const useUserStore = create<UserStore>(
       getUser: () => get().user,
     }),
     {
-      name: "userstore",
+      name: "user.store.main",
       getStorage: () => localStorage,
     }
   )
